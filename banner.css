@@ -1,0 +1,38 @@
+.banner {
+    background-image: 
+      linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url('images/rest\ and\ recharge.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 150px 0;
+    text-align: center;
+  }
+  
+  .banner h1 {
+    color: white;
+    font-size: 50px;
+  }
+  
+  .banner h2 {
+    color: white;
+    font-size: 30px;
+    font-weight: lighter;
+    opacity: 0.8;
+  }
+  
+  .btn-blue {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-blue:hover {
+    background-color: #0056b3;
+  }
+  
